@@ -1,0 +1,9 @@
+﻿  1>Checking Build System
+  CMake is re-running because D:/0_code/9_cursor_test/zeromqtest/build/CMakeFiles/generate.stamp is out-of-date.
+    the file 'D:/0_code/9_cursor_test/zeromqtest/CMakeLists.txt'
+    is newer than 'D:/0_code/9_cursor_test/zeromqtest/build/CMakeFiles/generate.stamp.depend'
+    result='-1'
+  -- Selecting Windows SDK version 10.0.22621.0 to target Windows 10.0.22631.
+  -- Configuring done (0.0s)
+  -- Generating done (0.0s)
+  -- Build files have been written to: D:/0_code/9_cursor_test/zeromqtest/build

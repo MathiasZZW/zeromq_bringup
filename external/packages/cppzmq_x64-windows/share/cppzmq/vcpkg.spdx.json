@@ -1,0 +1,110 @@
+{
+  "$schema": "https://raw.githubusercontent.com/spdx/spdx-spec/v2.2.1/schemas/spdx-schema.json",
+  "spdxVersion": "SPDX-2.2",
+  "dataLicense": "CC0-1.0",
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "documentNamespace": "https://spdx.org/spdxdocs/cppzmq-x64-windows-4.10.0-ce5fd87d-951a-4c8a-84fa-5f2add1052fc",
+  "name": "cppzmq:x64-windows@4.10.0 c505b55d47cb4654702b07abe09b992da576aef86fb7087457b15870afbedce0",
+  "creationInfo": {
+    "creators": [
+      "Tool: vcpkg-2025-01-24-874e302b1fa28cc81caefbb1483f80103c51ab52"
+    ],
+    "created": "2025-03-25T16:01:53Z"
+  },
+  "relationships": [
+    {
+      "spdxElementId": "SPDXRef-port",
+      "relationshipType": "GENERATES",
+      "relatedSpdxElement": "SPDXRef-binary"
+    },
+    {
+      "spdxElementId": "SPDXRef-port",
+      "relationshipType": "CONTAINS",
+      "relatedSpdxElement": "SPDXRef-file-0"
+    },
+    {
+      "spdxElementId": "SPDXRef-port",
+      "relationshipType": "CONTAINS",
+      "relatedSpdxElement": "SPDXRef-file-1"
+    },
+    {
+      "spdxElementId": "SPDXRef-binary",
+      "relationshipType": "GENERATED_FROM",
+      "relatedSpdxElement": "SPDXRef-port"
+    },
+    {
+      "spdxElementId": "SPDXRef-file-0",
+      "relationshipType": "CONTAINED_BY",
+      "relatedSpdxElement": "SPDXRef-port"
+    },
+    {
+      "spdxElementId": "SPDXRef-file-1",
+      "relationshipType": "CONTAINED_BY",
+      "relatedSpdxElement": "SPDXRef-port"
+    }
+  ],
+  "packages": [
+    {
+      "name": "cppzmq",
+      "SPDXID": "SPDXRef-port",
+      "versionInfo": "4.10.0",
+      "downloadLocation": "git+https://github.com/Microsoft/vcpkg#ports/cppzmq",
+      "homepage": "https://github.com/zeromq/cppzmq",
+      "licenseConcluded": "MIT",
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "description": "Header-only C++ binding for ZeroMQ",
+      "comment": "This is the port (recipe) consumed by vcpkg."
+    },
+    {
+      "name": "cppzmq:x64-windows",
+      "SPDXID": "SPDXRef-binary",
+      "versionInfo": "c505b55d47cb4654702b07abe09b992da576aef86fb7087457b15870afbedce0",
+      "downloadLocation": "NONE",
+      "licenseConcluded": "MIT",
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "comment": "This is a binary package built by vcpkg."
+    },
+    {
+      "SPDXID": "SPDXRef-resource-0",
+      "name": "zeromq/cppzmq",
+      "downloadLocation": "git+https://github.com/zeromq/cppzmq@v4.10.0",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "checksums": [
+        {
+          "algorithm": "SHA512",
+          "checksumValue": "4a4f3c2a270b9b21591b08a81f2ab6a72693af213c115f2c0aa5b737fd0363d09dba92437f48268ff982e6c27d6830f79244599bd9198e3402c6cca566cea27a"
+        }
+      ]
+    }
+  ],
+  "files": [
+    {
+      "fileName": "./D:/2_Tools/vcpkg/ports/cppzmq/portfile.cmake",
+      "SPDXID": "SPDXRef-file-0",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "7f3a40ec8e6c6caebd3a1ee2a3e3717be98bb5e160821aa32846e503b27d84c5"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./D:/2_Tools/vcpkg/ports/cppzmq/vcpkg.json",
+      "SPDXID": "SPDXRef-file-1",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "de1de90e73d326a8af4a79961eec7dc106bbeb2b9dfa92fae173cfd6c6ed8ddc"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "copyrightText": "NOASSERTION"
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+^D:\0_CODE\9_CURSOR_TEST\ZEROMQTEST\BUILD\CMAKEFILES\916E6E09D2B013C8A547860D0032A3E8\GENERATE.STAMP.RULE
+setlocal
+D:\2_Tools\cmake-3.30.1-windows-x86_64\cmake-3.30.1-windows-x86_64\bin\cmake.exe -SD:/0_code/9_cursor_test/zeromqtest -BD:/0_code/9_cursor_test/zeromqtest/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file D:/0_code/9_cursor_test/zeromqtest/build/zmq_demo.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

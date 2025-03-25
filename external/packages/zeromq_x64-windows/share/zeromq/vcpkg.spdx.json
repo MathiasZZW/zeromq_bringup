@@ -1,0 +1,154 @@
+{
+  "$schema": "https://raw.githubusercontent.com/spdx/spdx-spec/v2.2.1/schemas/spdx-schema.json",
+  "spdxVersion": "SPDX-2.2",
+  "dataLicense": "CC0-1.0",
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "documentNamespace": "https://spdx.org/spdxdocs/zeromq-x64-windows-4.3.5#2-c77c56e8-1fae-4657-8f15-c2dd564d836a",
+  "name": "zeromq:x64-windows@4.3.5#2 4999efb297745ee72960499dc4870e207d0626036898f76113b70f5fab64bf5a",
+  "creationInfo": {
+    "creators": [
+      "Tool: vcpkg-2025-01-24-874e302b1fa28cc81caefbb1483f80103c51ab52"
+    ],
+    "created": "2025-03-25T16:01:35Z"
+  },
+  "relationships": [
+    {
+      "spdxElementId": "SPDXRef-port",
+      "relationshipType": "GENERATES",
+      "relatedSpdxElement": "SPDXRef-binary"
+    },
+    {
+      "spdxElementId": "SPDXRef-port",
+      "relationshipType": "CONTAINS",
+      "relatedSpdxElement": "SPDXRef-file-0"
+    },
+    {
+      "spdxElementId": "SPDXRef-port",
+      "relationshipType": "CONTAINS",
+      "relatedSpdxElement": "SPDXRef-file-1"
+    },
+    {
+      "spdxElementId": "SPDXRef-port",
+      "relationshipType": "CONTAINS",
+      "relatedSpdxElement": "SPDXRef-file-2"
+    },
+    {
+      "spdxElementId": "SPDXRef-port",
+      "relationshipType": "CONTAINS",
+      "relatedSpdxElement": "SPDXRef-file-3"
+    },
+    {
+      "spdxElementId": "SPDXRef-binary",
+      "relationshipType": "GENERATED_FROM",
+      "relatedSpdxElement": "SPDXRef-port"
+    },
+    {
+      "spdxElementId": "SPDXRef-file-0",
+      "relationshipType": "CONTAINED_BY",
+      "relatedSpdxElement": "SPDXRef-port"
+    },
+    {
+      "spdxElementId": "SPDXRef-file-1",
+      "relationshipType": "CONTAINED_BY",
+      "relatedSpdxElement": "SPDXRef-port"
+    },
+    {
+      "spdxElementId": "SPDXRef-file-2",
+      "relationshipType": "CONTAINED_BY",
+      "relatedSpdxElement": "SPDXRef-port"
+    },
+    {
+      "spdxElementId": "SPDXRef-file-3",
+      "relationshipType": "CONTAINED_BY",
+      "relatedSpdxElement": "SPDXRef-port"
+    }
+  ],
+  "packages": [
+    {
+      "name": "zeromq",
+      "SPDXID": "SPDXRef-port",
+      "versionInfo": "4.3.5#2",
+      "downloadLocation": "git+https://github.com/Microsoft/vcpkg#ports/zeromq",
+      "homepage": "https://github.com/zeromq/libzmq",
+      "licenseConcluded": "MPL-2.0",
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "description": "The ZeroMQ lightweight messaging kernel is a library which extends the standard socket interfaces with features traditionally provided by specialised messaging middleware products",
+      "comment": "This is the port (recipe) consumed by vcpkg."
+    },
+    {
+      "name": "zeromq:x64-windows",
+      "SPDXID": "SPDXRef-binary",
+      "versionInfo": "4999efb297745ee72960499dc4870e207d0626036898f76113b70f5fab64bf5a",
+      "downloadLocation": "NONE",
+      "licenseConcluded": "MPL-2.0",
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "comment": "This is a binary package built by vcpkg."
+    },
+    {
+      "SPDXID": "SPDXRef-resource-0",
+      "name": "zeromq/libzmq",
+      "downloadLocation": "git+https://github.com/zeromq/libzmq@v4.3.5",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "checksums": [
+        {
+          "algorithm": "SHA512",
+          "checksumValue": "108d9c5fa761c111585c30f9c651ed92942dda0ac661155bca52cc7b6dbeb3d27b0dd994abde206eacfc3bc88d19ed24e45b291050c38469e34dca5f8c9a037d"
+        }
+      ]
+    }
+  ],
+  "files": [
+    {
+      "fileName": "./D:/2_Tools/vcpkg/ports/zeromq/fix-arm.patch",
+      "SPDXID": "SPDXRef-file-0",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "4d231802a3981e3beb343818314826e58813732bfd70851c31b76682b88f0b97"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./D:/2_Tools/vcpkg/ports/zeromq/portfile.cmake",
+      "SPDXID": "SPDXRef-file-1",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "f6df781bc3958f71bdbc99bbca3427ff939b934c7272fd66f859f6f6255e2e88"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./D:/2_Tools/vcpkg/ports/zeromq/vcpkg-cmake-wrapper.cmake",
+      "SPDXID": "SPDXRef-file-2",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "19043ac8e3a04cce2d94c59de9909704fa130cf2a340ea164d2a484bc7ce66dc"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./D:/2_Tools/vcpkg/ports/zeromq/vcpkg.json",
+      "SPDXID": "SPDXRef-file-3",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "7f4a690dc969072846cb7573a453b44597672351307cdd1c81216cac7aa8395f"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "copyrightText": "NOASSERTION"
+    }
+  ]
+}

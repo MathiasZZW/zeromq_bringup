@@ -1,0 +1,4 @@
+﻿  main.cpp
+D:\0_code\9_cursor_test\zeromqtest\main.cpp(22,10): warning C4996: 'zmq::proxy': from 4.3.1, use proxy taking socket_t objects
+D:\0_code\9_cursor_test\zeromqtest\main.cpp(49,16): warning C4834: 放弃具有 [[nodiscard]] 属性的函数的返回值
+  zmq_demo.vcxproj -> D:\0_code\9_cursor_test\zeromqtest\build\Debug\zmq_demo.exe
