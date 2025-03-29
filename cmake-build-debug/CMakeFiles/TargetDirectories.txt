@@ -1,0 +1,3 @@
+/Users/mathiasmath/Desktop/CODE/zmq/cmake-build-debug/CMakeFiles/zmq.dir
+/Users/mathiasmath/Desktop/CODE/zmq/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/mathiasmath/Desktop/CODE/zmq/cmake-build-debug/CMakeFiles/rebuild_cache.dir
