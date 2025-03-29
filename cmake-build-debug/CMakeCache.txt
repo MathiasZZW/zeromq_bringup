@@ -207,8 +207,8 @@ CMAKE_STRIP:FILEPATH=/Library/Developer/CommandLineTools/usr/bin/strip
 //Path to a program.
 CMAKE_TAPI:FILEPATH=/Library/Developer/CommandLineTools/usr/bin/tapi
 
-//The CMake toolchain file
-CMAKE_TOOLCHAIN_FILE:FILEPATH=/Users/mathiasmath/Desktop/TOOLS/0_vcpkg/scripts/buildsystems/vcpkg.cmake
+//No help, variable specified on the command line.
+CMAKE_TOOLCHAIN_FILE:UNINITIALIZED=/Users/mathiasmath/Desktop/TOOLS/0_vcpkg/scripts/buildsystems/vcpkg.cmake
 
 //If this value is on, makefiles will be generated without the
 // .SILENT directive, and all commands will be echoed to the console
@@ -267,6 +267,9 @@ _VCPKG_INSTALLED_DIR:PATH=/Users/mathiasmath/Desktop/TOOLS/0_vcpkg/installed
 
 //The directory containing a CMake configuration file for cppzmq.
 cppzmq_DIR:PATH=/Users/mathiasmath/Desktop/TOOLS/0_vcpkg/installed/arm64-osx/share/cppzmq
+
+//The directory containing a CMake configuration file for nlohmann_json.
+nlohmann_json_DIR:PATH=/Users/mathiasmath/Desktop/TOOLS/0_vcpkg/installed/arm64-osx/share/nlohmann_json
 
 //Value Computed by CMake
 zmq_BINARY_DIR:STATIC=/Users/mathiasmath/Desktop/CODE/zmq/cmake-build-debug
@@ -417,6 +420,8 @@ CMAKE_TOOLCHAIN_FILE-ADVANCED:INTERNAL=1
 CMAKE_UNAME:INTERNAL=/usr/bin/uname
 //ADVANCED property for variable: CMAKE_VERBOSE_MAKEFILE
 CMAKE_VERBOSE_MAKEFILE-ADVANCED:INTERNAL=1
+//Details about finding nlohmann_json
+FIND_PACKAGE_MESSAGE_DETAILS_nlohmann_json:INTERNAL=[/Users/mathiasmath/Desktop/TOOLS/0_vcpkg/installed/arm64-osx/share/nlohmann_json/nlohmann_jsonConfig.cmake][v3.11.3()]
 //Install the dependencies listed in your manifest:
 //\n    If this is off, you will have to manually install your dependencies.
 //\n    See https://github.com/microsoft/vcpkg/tree/master/docs/specifications/manifests.md

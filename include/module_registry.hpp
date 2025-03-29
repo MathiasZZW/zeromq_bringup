@@ -1,3 +1,12 @@
+#ifndef MODULE_REGISTRY_HPP
+#define MODULE_REGISTRY_HPP
+
+#include "message.hpp"
+#include "module_base.hpp"
+#include <map>
+#include <vector>
+#include <string>
+#include <algorithm>
 class ModuleRegistry : public ModuleBase {
 private:
     std::map<std::string, std::vector<std::string>> moduleTopics;
@@ -43,3 +52,5 @@ public:
         return result;
     }
 }; 
+
+#endif // MODULE_REGISTRY_HPP

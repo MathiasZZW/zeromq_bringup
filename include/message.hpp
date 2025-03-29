@@ -1,3 +1,6 @@
+#ifndef MESSAGE_HPP
+#define MESSAGE_HPP
+
 #include <string>
 #include <nlohmann/json.hpp>
 
@@ -34,3 +37,5 @@ struct Message {
         return msg;
     }
 }; 
+
+#endif // MESSAGE_HPP

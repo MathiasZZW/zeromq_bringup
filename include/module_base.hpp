@@ -1,3 +1,6 @@
+#ifndef MODULE_BASE_HPP
+#define MODULE_BASE_HPP
+
 #include <zmq.hpp>
 #include <string>
 #include <thread>
@@ -83,3 +86,5 @@ public:
         publisher.send(zmq::buffer(data));
     }
 }; 
+
+#endif // MODULE_BASE_HPP

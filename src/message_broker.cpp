@@ -46,8 +46,8 @@ public:
     }
 };
 
-int main() {
-    MessageBroker broker;
-    broker.start();
-    return 0;
-} 
+//int main() {
+//    MessageBroker broker;
+//    broker.start();
+//    return 0;
+//}

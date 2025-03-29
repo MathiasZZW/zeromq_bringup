@@ -1099,10 +1099,10 @@
 				},
 				{
 					"name" : "HELPSTRING",
-					"value" : "The CMake toolchain file"
+					"value" : "No help, variable specified on the command line."
 				}
 			],
-			"type" : "FILEPATH",
+			"type" : "UNINITIALIZED",
 			"value" : "/Users/mathiasmath/Desktop/TOOLS/0_vcpkg/scripts/buildsystems/vcpkg.cmake"
 		},
 		{
@@ -1132,6 +1132,18 @@
 			],
 			"type" : "BOOL",
 			"value" : "FALSE"
+		},
+		{
+			"name" : "FIND_PACKAGE_MESSAGE_DETAILS_nlohmann_json",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Details about finding nlohmann_json"
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : "[/Users/mathiasmath/Desktop/TOOLS/0_vcpkg/installed/arm64-osx/share/nlohmann_json/nlohmann_jsonConfig.cmake][v3.11.3()]"
 		},
 		{
 			"name" : "VCPKG_APPLOCAL_DEPS",
@@ -1352,6 +1364,18 @@
 			],
 			"type" : "PATH",
 			"value" : "/Users/mathiasmath/Desktop/TOOLS/0_vcpkg/installed/arm64-osx/share/cppzmq"
+		},
+		{
+			"name" : "nlohmann_json_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "The directory containing a CMake configuration file for nlohmann_json."
+				}
+			],
+			"type" : "PATH",
+			"value" : "/Users/mathiasmath/Desktop/TOOLS/0_vcpkg/installed/arm64-osx/share/nlohmann_json"
 		},
 		{
 			"name" : "zmq_BINARY_DIR",
